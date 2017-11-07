@@ -1,6 +1,6 @@
 {
   "name": "@gaearon/rollup-plugin-closure-compiler-js",
-  "version": "1.0.5",
+  "version": "1.0.5-fork",
   "description": "Rollup plugin to invoke google-closure-compiler-js.",
   "main": "dist/rollup-plugin-closure-compiler-js.js",
   "jsnext:main": "dist/rollup-plugin-closure-compiler-js.es.js",
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/camelaissani/rollup-plugin-closure-compiler-js#readme",
   "dependencies": {
-    "google-closure-compiler-js": "@gaearon/google-closure-compiler-js@20170910.0.1"
+    "@gaearon/google-closure-compiler-js": "20170910.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
